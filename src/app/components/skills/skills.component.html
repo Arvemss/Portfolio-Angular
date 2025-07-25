@@ -1,0 +1,13 @@
+<div class="container py-5">
+  <h2>Habilidades</h2>
+  <div class="row">
+    <div class="col-md-6" *ngFor="let skill of ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'Angular', 'Bootstrap', 'Git']">
+      <div class="mb-3">
+        <label>{{ skill }}</label>
+        <div class="progress">
+          <div class="progress-bar bg-success" style="width: 90%">{{ skill }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
